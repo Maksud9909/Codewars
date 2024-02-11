@@ -7,11 +7,10 @@ public class SumCubes {
         System.out.println(sumCubes(2));
     }
     public static long sumCubes(long n) {
-        int result = 1;
-        for (int i = 1; i < n; i++) {
-            result*=i;
+        int result = 0;
+        for (int i = 1; i <= n; i++) {
 
-
+            result += Math.pow(i,123);
 
         }
         return result;
