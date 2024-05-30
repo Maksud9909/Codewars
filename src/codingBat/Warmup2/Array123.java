@@ -1,21 +1,27 @@
 package codingBat.Warmup2;
 
 
-
+import java.util.HashSet;
+import java.util.Set;
 
 public class Array123 {
-    public int[] maxEnd3(int[] nums) {
-        int max = Math.max(nums[0], nums[nums.length - 1]);
-        nums[0] = max;
-        nums[1] = max;
-        nums[2] = max;
-        return nums;
-    }
-
-
-
-
-
+//    public boolean has271(int[] nums) {
+//        for (int i = 0; i < nums.length - 2; i++) {
+//            if (nums[i] == 2){
+//                if ((nums[i + 1] == 7 && nums[i+2] == 1) || nums[i + 1] == ){
+//                    return true;
+//                }
+//            }
+//        }
+//        return false;
+////    }
 
 
 }
+
+
+
+
+
+
+
