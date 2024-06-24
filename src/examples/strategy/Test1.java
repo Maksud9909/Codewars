@@ -1,6 +1,4 @@
-package examples;
-
-import java.util.StringJoiner;
+package examples.strategy;
 
 public class Test1 {
     public static void main(String[] args) {

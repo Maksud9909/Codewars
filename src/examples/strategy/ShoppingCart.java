@@ -1,4 +1,4 @@
-package examples;
+package examples.strategy;
 
 public class ShoppingCart {
     public PaymentStrategy paymentStrategy;
