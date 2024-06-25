@@ -11,9 +11,6 @@ public class Main {
         List<String> list = new ArrayList<>();
         int times = 10;
         System.out.println(times + fill(list, name + name, times)); // KevinKevin
-
-
-
     }
     public static int fill(Collection<String> collection, String str, int times){
         String shrunk = shrink(str); // string with length 5
